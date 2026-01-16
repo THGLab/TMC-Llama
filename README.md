@@ -1,7 +1,7 @@
 # TMC-Llama: Exploring Transition Metal Complexes with Large Language Models
 
-[![License](https://img.shields.io/github/license/THGLab/TMC-Llama)](LICENSE)
-[DOI](10.26434/chemrxiv-2025-hm3zb)
+[![License](https://img.shields.io/github/license/THGLab/TMC-Llama)](LICENSE)  
+[DOI](10.26434/chemrxiv-2025-hm3zb)  
 [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/69136d39a10c9f5ca1c14847)
 
 
@@ -10,12 +10,15 @@ TMC-Llama is fine-tuned from Meta's open-source pre-trained Llama3 large languag
   
 In addition, the paper studies the unparsable strings (in Notebook 2) and identifies several failure modes for the generated TMCs. Corresponding to these failure modes, we revealed characteristic molecular properties / features that are helpful to build future tools, including SFT protocols and post-generation algorithms, for high quality TMCs. These properties can also be infrastructures to develop models for chemically functional TMCs.
 
-## 💡 Usage
+## How to use
 
-### Prerequisites
+### Llama3 environment
 .
 
-### Installation
+### Running Jupyter-notebook demonstrations
+.
+
+### Fine-tuning TMC-Llama
 .
 
 ### Inference
