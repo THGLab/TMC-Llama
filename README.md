@@ -10,9 +10,9 @@ TMC-Llama is fine-tuned from Meta's open-source pre-trained Llama3 large languag
   
 In addition, the paper studies the unparsable strings (in Notebook 2) and identifies several failure modes for the generated TMCs. Corresponding to these failure modes, we revealed characteristic molecular properties / features that are helpful to build future tools, including SFT protocols and post-generation algorithms, for high quality TMC generation. These properties can also be infrastructures to develop models for chemically functional TMCs.
 
-## How to use
+## 🔍 How to use
 
-### Llama3 environment
+### 📕 Llama3 environment
 Performing inference for TMC-Llama only requires installation of `PyTorch`, `Transformers`, and `RDKit`, which can be found in the directories below:
 - PyTorch: [torch](https://pytorch.org/get-started/previous-versions/). In addition, TMC-Llama utilizes [CUDA](https://developer.nvidia.com/cuda/toolkit) (version 11.8) to run `PyTorch`.
 - Transformers: [Huggingface transformers](https://huggingface.co/docs/transformers/en/installation). Note that you may want to specify your preferred `CACHE` directories.
@@ -20,14 +20,14 @@ Performing inference for TMC-Llama only requires installation of `PyTorch`, `Tra
 
 All customized `.py` files to perform inference are in the `libllama/` directory, which are developed in [SmileyLlama](https://github.com/THGLab/SmileyLlama) project. The prerequisites of virtual environment to perform inference will be identical to SmileyLlama as well.
 
-### Running Jupyter-notebook demonstrations
+### 📗 Running Jupyter-notebook demonstrations
 All notebook demonstrations can be performed using existing files in `libTMC/` and `libllama/` directories if the prerequisites above are satisfied, such as `RDKit`. Customized python functions to identify transition metal centers, isolate ligands, fix redundant dative bonds, correct atoms with improper valences, and fix unclosed rings are in `.py` files in `libTMC/`.  
 Demonstration datasets and the generated results (both of which are `.csv` files) are in `data/` directory.
 
-### Fine-tuning TMC-Llama
+### 📘 Fine-tuning TMC-Llama
 TMC-Llama is built on top of the SmileyLlama repository, so `axolotl` needs to be installed to fine-tune and obtain TMC-Llama, following the previous [Installation guide](https://github.com/THGLab/SmileyLlama/tree/main?tab=readme-ov-file#installation-guide). The fine-tuning dataset of TMC-Llama and the corresponding SFT prompts can be found on [FigShare]().
 
-### Inference
+### 📙 Inference
 To perform inference using TMC-Llama, download the trained models from [FigShare]() and follow the instructions in the Notebook 4 (inference guideline).
 
 ## 📄 License
@@ -47,4 +47,4 @@ If you use this code in your research, please cite:
     publisher = {ChemRxiv},
     author = {Liu, Yunsheng and Cavanagh, Joseph and Sun, Kunyang and Toney, Jacob and Yuan, Chung-Yueh and Smith, Andrew and St Michel II, Roland and Graggs, Paul and Toste, F Dean and Kulik, Heather and Head-Gordon, Teresa},
     month = nov,
-    year = {2025}
+    year = {2025}}
