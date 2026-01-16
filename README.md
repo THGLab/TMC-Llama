@@ -8,7 +8,7 @@
 ## 📖 Introduction
 TMC-Llama is fine-tuned from Meta's open-source pre-trained Llama3 large language models (Llama-3.2-1b-Instruct). TMC-Llama generates transition metal complexes (TMCs) using SMILES notations that are tailored for RDKit-compatible metal-organic connections, [TMC-SMILES](https://doi.org/10.1186/s13321-025-01008-1) (developed by Rasmussen and co-workers). With a set of chemical properties provided in the supervised fine-tuning (SFT) prompts, TMC-Llama can generate TMCs in specific chemical space, making TMC-Llama a useful tool for TMC discovery.
   
-In addition, the paper studies the unparsable strings (in Notebook 2) and identifies several failure modes for the generated TMCs. Corresponding to these failure modes, we revealed characteristic molecular properties / features that are helpful to build future tools, including SFT protocols and post-generation algorithms, for high quality TMCs. These properties can also be infrastructures to develop models for chemically functional TMCs.
+In addition, the paper studies the unparsable strings (in Notebook 2) and identifies several failure modes for the generated TMCs. Corresponding to these failure modes, we revealed characteristic molecular properties / features that are helpful to build future tools, including SFT protocols and post-generation algorithms, for high quality TMC generation. These properties can also be infrastructures to develop models for chemically functional TMCs.
 
 ## How to use
 
