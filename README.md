@@ -1,9 +1,7 @@
 # TMC-Llama: Exploring Transition Metal Complexes with Large Language Models
 
 [![License](https://img.shields.io/github/license/THGLab/TMC-Llama)](LICENSE)
-  
 [DOI](10.26434/chemrxiv-2025-hm3zb)
-  
 [ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/69136d39a10c9f5ca1c14847)
 
 
