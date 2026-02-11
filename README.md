@@ -25,10 +25,10 @@ All notebook demonstrations can be performed using existing files in `libTMC/` a
 Demonstration datasets and the generated results (both of which are `.csv` files) are in `data/` directory.
 
 ### 📘 Fine-tuning TMC-Llama
-TMC-Llama is built on top of the SmileyLlama repository, so `axolotl` needs to be installed to fine-tune and obtain TMC-Llama, following the previous [Installation guide](https://github.com/THGLab/SmileyLlama/tree/main?tab=readme-ov-file#installation-guide). The fine-tuning dataset of TMC-Llama and the corresponding SFT prompts can be found on [FigShare]().
+TMC-Llama is built on top of the SmileyLlama repository, so `axolotl` needs to be installed to fine-tune and obtain TMC-Llama, following the previous [Installation guide](https://github.com/THGLab/SmileyLlama/tree/main?tab=readme-ov-file#installation-guide). The fine-tuning dataset of TMC-Llama and the corresponding SFT prompts can be found on [FigShare](https://doi.org/10.6084/m9.figshare.30594500).
 
 ### 📙 Inference
-To perform inference using TMC-Llama, download the trained models from [FigShare]() and follow the instructions in the Notebook 4 (inference guideline).
+To perform inference using TMC-Llama, download the trained models from [FigShare](https://doi.org/10.6084/m9.figshare.30594500) and follow the instructions in the Notebook 4 (inference guideline).
 
 ## 📄 License
 See the [LICENSE](LICENSE) file for details
